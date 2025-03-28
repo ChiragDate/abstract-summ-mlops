@@ -1,0 +1,11 @@
+arxiv:
+  domains: ["cs.AI", "cs.LG", "cs.CL", "q-bio.BM", "stat.ML"]
+  max_results: 50
+  save_dir: "data/raw/papers/"
+
+nlp:
+  model_name: "allenai/scibert_scivocab_uncased"
+  max_token_length: 512
+
+features:
+  output_dir: "data/processed/"
